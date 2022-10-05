@@ -63,7 +63,7 @@ function draw() {
 }
 function spawnDoorAndClimbers(){
   if (frameCount%150===0){
-    door =  createSprite(random(100,200),-50);
+    door =  createSprite(random(100,500),-50);
     door.addImage(doorImg);
     climber = createSprite(door.x,door.y+50);
     climber.addImage(climberImg);
